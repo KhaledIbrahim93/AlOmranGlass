@@ -290,4 +290,12 @@ a:hover, a:focus {
 .card[data-color="orange"] .category {
     color: #e95e37;
 }
-
+@media (max-width: 1098px) and (max-height: 847px) {
+  #title{
+    font-size: 14px;
+    color: rgb(190, 225, 255);
+  }
+}
+#title{
+  font-size: 27px; color: rgb(190, 225, 255);
+}
