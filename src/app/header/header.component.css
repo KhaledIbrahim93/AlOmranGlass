@@ -150,7 +150,7 @@
 }  
 #siteName{
   font-size: 46px;
-  color: var(--bs-gray);
+  color: #b3b3b3;
   font-family: monospace;
   font-family: "Cairo", sans-serif;
   font-optical-sizing: auto;
