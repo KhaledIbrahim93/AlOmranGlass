@@ -167,13 +167,8 @@
   padding-left: 0; /* Remove left padding for the logo */
   margin-right: 10px; /* Add some spacing between the logo and other navigation items */
 }
-@media (max-width: 1098px) and (max-height: 847px) {
-  /* Styles for screens with a width of 390px and height of 844px or smaller */
-  /* Add your desired styles here */
-  nav.top-bar-wrap ul,
-  nav.main-nav-wrap ul {
-   display: grid;
-  }
+@media (min-width: 320px) and (max-width: 767px) {
+  
   .coursolStyle{
     box-shadow: 0px 8px 20px 0px #13d6ff6e;
     margin-left: 2%;
@@ -193,12 +188,34 @@
     font-style: normal;
     font-variation-settings: "slnt" 0;
   }
+  nav.top-bar-wrap {
+    /* background: #ffb66c; */
+    background: #393837;
+    margin-bottom: 5%;
+  }
+  #headerFont{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 12px;
+    font-weight: bolder;
+    color: silver;
+}
+#mobileHeader{
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 13px;
+  font-weight: bolder;
+  color: #FF5722;
+ 
+  
+}  
 }
 
-.coursolStyle{
-  box-shadow: 0px 8px 20px 0px #13d6ff6e;     
-  margin-left: 2%;margin-right: 2%;
-  margin-top: 6px;margin-bottom: 27px;
-  height: 600px;
-}
+
 
