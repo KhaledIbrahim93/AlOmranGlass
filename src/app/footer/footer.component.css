@@ -45,9 +45,10 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo img {
-  max-width: 300px;
+  max-width: 256px;
   border-radius: 22px;
-  margin-left: 21%;
+  margin-left: 14%;
+  box-shadow: -1px 0px 20px #13d6ffad;
 }
 .footer-text p {
   margin-bottom: 14px;

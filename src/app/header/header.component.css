@@ -97,19 +97,19 @@
   }
   
   .brand-logo {
-   
-
-    left: 6px;
-    /* padding-left: 43px; */
+    top: 1%;
+    left: 2px;
     background: #7c7b7b;
     border-right: 2px solid #8d8d8d;
     background-image: url("../../assets/Imgs/logo1.jpg");
     width: 119px;
-    height: 137px;
+    height: 122px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transform: skewX(-22deg);
+    transform: skew(-1deg);
+    border-radius: 13px;
+    box-shadow: inset -1px 4px 20px #13d6ffad;
 
   }
   
@@ -179,7 +179,7 @@
   
   }
   #siteName{
-    font-size: 12px;
+    font-size: 20px;
     color: #b3b3b3;
     font-family: monospace;
     font-family: "Cairo", sans-serif;
@@ -215,6 +215,10 @@
  
   
 }  
+.top-bar-wrap {
+  height: 40px;
+  line-height: 13px;
+}
 }
 
 
