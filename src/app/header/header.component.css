@@ -179,7 +179,7 @@
   
   }
   #siteName{
-    font-size: 19px;
+    font-size: 12px;
     color: #b3b3b3;
     font-family: monospace;
     font-family: "Cairo", sans-serif;
@@ -209,7 +209,7 @@
   font-weight: weight;
   font-style: normal;
   font-variation-settings: "slnt" 0;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: bolder;
   color: #FF5722;
  
